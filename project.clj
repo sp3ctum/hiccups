@@ -17,9 +17,7 @@
   :dependencies [[org.clojure/clojure "1.5.1"]
                  [org.clojure/clojurescript "0.0-2069"]]
 
-  ;; The plugins which the project depends on. Here we're using the
-  ;; experimental 1.0.0-alpha2 release. Change it to the official
-  ;; 1.0.0 as soon as it will be available
+  ;; The plugins which the project depends on.
   :plugins [[lein-cljsbuild "1.0.0"]]
 
   ;; Hooks the cljsbuild subtasks to the lein tasks: lein clean, lein
